@@ -6,6 +6,7 @@ class RadarDrawer():
         return
 
     def __call__(self, kmeans_moudel, n_clusters):
+        # 设置中文字体
         plt.rc("font",family="Microsoft YaHei")
         # 标签
         labels = np.array([u'ZL',u'ZR',u'ZF',u'ZM',u'ZC'])
